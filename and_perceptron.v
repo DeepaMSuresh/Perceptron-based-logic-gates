@@ -35,17 +35,12 @@ module and_perceptron (
     parameter  w2 =  8'b11010101;  
     parameter  w3 =  8'b00010111;  
 
-  // parameter  w0 =  4'b0100;  
-  // parameter  w1 =  4'b0011;
- //  parameter  w2 =  4'b1101;  
-   //parameter  w3 =  4'b0001;
+  
 
     // Trained bias 
-   // parameter bias = 4'b0011;
-	 parameter bias = 8'b00110000;
+ 	 parameter bias = 8'b00110000;
 
     // Threshold 
-    //parameter threshold = 4'b1000;
 parameter threshold = 8'b10000000;
 
     // Intermediate weighted sum
